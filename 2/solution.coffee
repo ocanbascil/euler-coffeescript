@@ -9,7 +9,6 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 ###
 
 start = Date.now()
-limit = 4000000
 
 memoize = (func) ->
   memo ?= {}
@@ -24,9 +23,9 @@ fibonacci = (n) ->
 
 fibonacci = memoize fibonacci
 
+limit = 4000000
 sum = 0
 n = 0
-flag = true
 
 while true
   temp = fibonacci n
