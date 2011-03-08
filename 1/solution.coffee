@@ -19,4 +19,4 @@ sum = (list) ->
 numbers = (num for num in [1..999] when filter num)
 
 console.log sum numbers
-console.log 'Finished in :'+(Date.now() - start)+' ms'
+console.log "Finished in : #{Date.now() - start} ms"

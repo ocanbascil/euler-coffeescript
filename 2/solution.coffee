@@ -36,4 +36,4 @@ while true
   n += 1
 
 console.log 'Result: '+sum
-console.log 'Finished in :'+(Date.now() - start)+' ms'
+console.log "Finished in : #{Date.now() - start} ms"
